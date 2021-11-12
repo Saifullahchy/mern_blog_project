@@ -1,0 +1,36 @@
+{
+  "name": "BlogProject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "anymatch": "^3.1.2",
+    "clone-response": "^1.0.2",
+    "compression": "^1.7.4",
+    "decompress-response": "^3.3.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "make-dir": "^3.1.0",
+    "mimic-response": "^1.0.1",
+    "minimist": "^1.2.5",
+    "mongoose": "^6.0.12",
+    "nodemon": "^2.0.15",
+    "normalize-path": "^3.0.0",
+    "nopt": "^1.0.10",
+    "normalize-url": "^4.5.1",
+    "p-cancelable": "^1.1.0",
+    "prepend-http": "^2.0.0",
+    "picomatch": "^2.3.0",
+    "pupa": "^2.1.1",
+    "readdirp": "^3.6.0",
+    "responselike": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
